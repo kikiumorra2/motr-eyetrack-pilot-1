@@ -17,7 +17,7 @@ export default {
   // 'directLink' – submits to the server; participant ID is typed in on the consent screen.
   // 'prolific'   – like directLink, but also records Prolific URL parameters and redirects
   //                to completionUrl at the end.
-  mode: "prolific",
+  mode: "debug",
 
   language: "en",
 };
