@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+UNAGREE,"After the esteemed reviewer reads, the books gains more attention due to his glowing praise.",Does the esteemed reviewer like the books?,Yes|No,f,6,3,agreement,Yes
+UNAGREE,"Whenever the nurse calls, the doctors stops working immediately to check on the patient.",Does the nurse call the patient?,Yes|No,f,7,3,agreement,No
+AGREE,"After the diplomat signs, the agreement creates another border conflict as a side effect.",Does the agreement lead to peace?,Yes|No,f,14,3,agreement,No
+AGREE,"Whenever the reporter moves, the camera requires constant adjustment from the director.",Does the director move the camera?,Yes|No,f,15,3,agreement,Yes
+AGREE,"Unless the dog attacks, the cat remains relatively tranquil throughout the day.",Does the cat usually remain calm?,Yes|No,f,16,3,agreement,Yes
+UNAGREE,"Until the lead architect leaves, the projects demands immense patience from the engineers.",Has the lead architect left?,Yes|No,f,17,3,agreement,No
+UNAGREE,"After the tutor stops, the students starts working independently on the questions.",Does the tutor stop the students?,Yes|No,f,20,3,agreement,No
+AGREE,"However hard the scientist works, his experiment produces smaller amounts of alcohol than expected.",Does the experiment produce excessive alcohol?,Yes|No,f,24,3,agreement,No

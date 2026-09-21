@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+UNAGREE,"If the supervisor changes, the schedules deserves further inspection by the rest of the staff.",Do the schedules ever deserve closer inspection?,Yes|No,h,1,3,agreement,Yes
+AGREE,"When the magician moves, the card disappears mysteriously from his assistant's hand.",Does the card ever disappear?,Yes|No,h,3,3,agreement,Yes
+AGREE,"Whenever the lawyer leaves, his client appears increasingly uncomfortable in the courtroom.",Does the client always look comfortable in the courtroom?,Yes|No,h,5,3,agreement,No
+AGREE,"After the esteemed reviewer reads, the book gains more attention due to his glowing praise.",Does the esteemed reviewer like the book?,Yes|No,h,6,3,agreement,Yes
+AGREE,"When the supervisor works, the shift seems unnecessarily stressful on a Friday night.",Does the supervisor sometimes work on a Friday night?,Yes|No,h,12,3,agreement,Yes
+UNAGREE,"After the diplomat signs, the agreements creates another border conflict as a side effect.",Do the agreements lead to peace?,Yes|No,h,14,3,agreement,No
+UNAGREE,"Unless the dog attacks, the cats remains relatively tranquil throughout the day.",Do the cats usually remain calm?,Yes|No,h,16,3,agreement,Yes
+UNAGREE,"Even if the mother calls, her boys continues causing problems with the other kids on the playground.",Do the boys behave themselves after their mother calls?,Yes|No,h,19,3,agreement,No

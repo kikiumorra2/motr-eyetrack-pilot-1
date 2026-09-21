@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+AGREE,"After the worst team loses, the tournament remains essentially the same for the rest of the year.",Does the loss of the worst team matter to the tournament?,Yes|No,c,10,3,agreement,No
+UNAGREE,"Once the head surgeon begins, the operations achieves incredible results given the risks involved.",Are the operations successful?,Yes|No,c,21,3,agreement,Yes
+AGREE,"When the supervisor works, the shift seems unnecessarily stressful on a Friday night.",Does the supervisor sometimes work on a Friday night?,Yes|No,c,12,3,agreement,Yes
+UNAGREE,"After the tutor stops, the students starts working independently on the questions.",Does the tutor stop the students?,Yes|No,c,20,3,agreement,No
+AGREE,"When the magician moves, the card disappears mysteriously from his assistant's hand.",Does the card ever disappear?,Yes|No,c,3,3,agreement,Yes
+UNAGREE,"If the supervisor changes, the schedules deserves further inspection by the rest of the staff.",Do the schedules ever deserve closer inspection?,Yes|No,c,1,3,agreement,Yes
+AGREE,"Until the lead architect leaves, the project demands immense patience from the engineers.",Has the lead architect left?,Yes|No,c,17,3,agreement,No
+UNAGREE,"After the producer starts, the auditions separates mediocre actors from talented ones.",Do some actors perform better than others at the audition?,Yes|No,c,23,3,agreement,Yes

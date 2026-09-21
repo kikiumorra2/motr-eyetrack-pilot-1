@@ -1,0 +1,45 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+NPS_UAMB,The new chef claimed that the restaurant separated mediocre cooks from gifted ones.,Did the chef join the restaurant recently?,Yes|No,q,23,2,NPS,Yes
+NPZ_AMB,Although the player lost the bonus remained essentially the same as in the original contract.,Did the player lose the bonus?,Yes|No,q,10,2,NPZ,No
+AttachLow,"On the fishing trip, we laughed at the uncles of the sailor who was confused about the motor on the boat.",Who got confused?,The uncles|The sailor,q,55,2,Attach,The sailor
+MVRR_UAMB,The technician who was refused the service stopped working almost immediately after the argument.,Did the technician refuse the service?,Yes|No,q,7,2,MVRR,No
+AttachHigh,"Down at the pub, Ollie gossiped about the daughters of the nurse who were at church last Sunday in grimy shorts.",Where was Ollie?,A pub|A church,q,63,2,Attach,A pub
+MVRR_AMB,The mayor sent the document provided sufficient evidence that it was simply blackmail.,Did the mayor send the document to someone?,Yes|No,q,13,2,MVRR,No
+RC_Obj,The neighbor who the couple observed purchased the old Victorian house.,Who purchased the house?,The couple|The neighbor,q,41,2,RC,The neighbor
+NPZ_UAMB,"Once the recent hire started, the job prepared many students for careers in media.",Did the job help any students?,Yes|No,q,11,2,NPZ,Yes
+NPS_AMB,The guitarist knew the song failed dramatically because of the tensions within the band.,Did the band members have some interpersonal conflict?,Yes|No,q,9,2,NPS,Yes
+AttachMulti,"At trial, we scrutinized the prisoner of the FBI agent who was lying about the incident at the casino.",Who lied?,The prisoner|The FBI agent,q,56,2,Attach,BOTH
+RC_Subj,The soldiers that helped the natives climbed the big rock that blocked the path.,Who climbed the rock?,The natives|The soldiers,q,43,2,RC,The soldiers
+NPZ_AMB,Before the patient called the treatment continued causing uncomfortable side effects like nausea.,Did the patient's nausea last for a while?,Yes|No,q,19,2,NPZ,Yes
+AttachHigh,"During the demonstration, someone photographed the soldier of the lieutenants who was camouflaged and hiding in the trees.",Who hid in the trees?,The soldier|The lieutenants,q,57,2,Attach,The soldier
+MVRR_AMB,The yoga instructor offered the position demanded immense physical effort from everyone.,Did the instructor offer the position to someone?,Yes|No,q,17,2,MVRR,No
+NPS_UAMB,The boy found that the chicken stayed surprisingly happy in the new barn.,Was the chicken satisfied in the new barn?,Yes|No,q,4,2,NPS,Yes
+AttachLow,"At the summit, Ursula warmly greeted the advisor of the tycoons who snowboard in Aspen in January.",Who snowboards?,The advisor|The tycoons,q,67,2,Attach,The tycoons
+MVRR_UAMB,The basketball player who was handed the contract created another controversy in the NBA.,Did the player hand the contract to someone?,Yes|No,q,14,2,MVRR,No
+NPS_AMB,The corrupt politician mentioned the bill received unwelcome attention from southern voters.,Did the bill receive any negative attention?,Yes|No,q,2,2,NPS,Yes
+AttachMulti,Rosalina testified against the detectives of the senators who were caught spying on his colleagues.,Who got caught spying?,The detectives|The senators,q,68,2,Attach,BOTH
+NPZ_UAMB,"After the woman moved, the mail disappeared mysteriously from the delivery system.",Did the woman move the mail?,Yes|No,q,3,2,NPZ,No
+RC_Subj,The farmer who hired the rancher piled the seeds in long rows.,Who was hired?,The rancher|The farmer,q,32,2,RC,The rancher
+RC_Obj,The dancer that the audience loved ignored some basic principles.,Who was loved?,The dancer|The audience,q,29,2,RC,The dancer
+MVRR_UAMB,The professor who was awarded the grant gained more attention from marine biologists.,Did the professor award the grant to someone?,Yes|No,q,6,2,MVRR,No
+AttachHigh,"Before the exhibition, Silas telephoned the friends of the bodybuilder who write fan fiction about Batman.",Who writes fan fiction?,The friends|The bodybuilder,q,69,2,Attach,The friends
+NPZ_UAMB,"While the assistant manager worked, the training seemed unnecessarily demanding to him.",Was the training difficult?,Yes|No,q,12,2,NPZ,Yes
+NPS_AMB,The suspect showed the file deserved further investigation during the murder trial.,Who drew attention to the file during the trial?,The suspect|The lawyer,q,1,2,NPS,The suspect
+MVRR_AMB,The mechanic brought the truck needed several more hours to fully repair it.,Did the mechanic bring the truck?,Yes|No,q,8,2,MVRR,No
+AttachLow,No one quite knew how to respond to the buddy of the janitors who burp without excusing themselves.,Did everyone excuse themselves?,Yes|No,q,61,2,Attach,No
+RC_Subj,The speaker who entertained the economists predicted a good year for the industry.,Who predicted a good year?,The speaker|The economists,q,44,2,RC,The speaker
+NPS_UAMB,The engineer maintained that the equipment required constant supervision from senior technicians.,Did the engineer maintain the equipment?,Yes|No,q,15,2,NPS,No
+RC_Obj,The pilot who the ground crew delayed remained on the runway for a long time.,Who was on the runway?,The pilot|The ground crew,q,42,2,RC,The pilot
+NPZ_AMB,After the new doctor left the operation appeared increasingly likely to succeed.,Did the doctor appear likely to succeed?,Yes|No,q,5,2,NPZ,No
+AttachMulti,The cunning Wally outmaneuvered the henchmen of the villains who often fail to carry out the plot.,Do the plots always succeed?,Yes|No,q,62,2,Attach,No
+MVRR_AMB,The contestant paid the money became unavailable and suddenly terminated his contract.,Did the contestant pay the money to someone?,Yes|No,q,22,2,MVRR,No
+AttachHigh,"From the gallery, Franny observed the nurse of the surgeons who was in charge of the operation currently underway.",Where was Franny?,The gallery|The operating room,q,51,2,Attach,The gallery
+RC_Subj,The farmer that approached the customers lifted the chickens from their coop.,Who was approached?,The customers|The farmer,q,31,2,RC,The customers
+MVRR_UAMB,The little girl who was fed the lamb remained relatively calm despite having asked for beef.,Did the girl feed the lamb?,Yes|No,q,16,2,MVRR,No
+NPZ_AMB,Once the dancer began the ballet achieved incredible success for a show with a new performer.,What show achieved incredible success?,A musical|A ballet,q,21,2,NPZ,A ballet
+RC_Obj,The employees that the fireman noticed hurried across the open field.,Who was noticed?,The employees|The fireman,q,30,2,RC,The employees
+AttachMulti,Edwin has been reading about the sister of the actor who was visiting the resort in Death Valley.,Where was the resort?,The desert|The seaside,q,50,2,Attach,The desert
+NPS_UAMB,The apprentice baker discovered that the oven produced smaller cakes because it heated too fast.,Did the apprentice baker discover the oven?,Yes|No,q,24,2,NPS,No
+NPZ_UAMB,"Once the operator stopped, the machine started working efficiently without any supervision.",Did the operator stop the machine?,Yes|No,q,20,2,NPZ,No
+NPS_AMB,The governor noticed the contract received sweeping support across the entire state.,How much support did the contract receive?,Extensive|Limited,q,18,2,NPS,Extensive
+AttachLow,"In the lobby, Clyde bumped into the chauffeurs of the CEO who is reckless and very unpopular with the company.",Where was Clyde?,In the lobby|At the company's offices,q,49,2,Attach,In the lobby

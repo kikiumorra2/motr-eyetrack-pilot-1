@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+AGREE,"Whenever the nurse calls, the doctor stops working immediately to check on the patient.",Does the nurse call the patient?,Yes|No,k,7,3,agreement,No
+UNAGREE,"When the actress begins, the scenes fails dramatically despite the months she spent rehearsing.",Did the actress rehearse extensively?,Yes|No,k,9,3,agreement,Yes
+AGREE,"After the worst team loses, the tournament remains essentially the same for the rest of the year.",Does the loss of the worst team matter to the tournament?,Yes|No,k,10,3,agreement,No
+UNAGREE,"When the lecturer stops, her audiences needs several minutes to reflect on the content.",Does the lecturer stop her audiences?,Yes|No,k,8,3,agreement,No
+AGREE,"After the esteemed reviewer reads, the book gains more attention due to his glowing praise.",Does the esteemed reviewer like the book?,Yes|No,k,6,3,agreement,Yes
+UNAGREE,"Whenever the lawyer leaves, his clients appears increasingly uncomfortable in the courtroom.",Do the clients always look comfortable in the courtroom?,Yes|No,k,5,3,agreement,No
+AGREE,"Unless the dog attacks, the cat remains relatively tranquil throughout the day.",Does the cat usually remain calm?,Yes|No,k,16,3,agreement,Yes
+UNAGREE,"However hard the scientist works, his experiments produces smaller amounts of alcohol than expected.",Do the experiments produce excessive alcohol?,Yes|No,k,24,3,agreement,No

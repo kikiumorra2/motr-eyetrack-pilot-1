@@ -1,0 +1,4 @@
+pandas>=1.5
+numpy>=1.20
+matplotlib>=3.5      # only for plot_trial_mouse_overlay.py
+# psycopg2-binary    # only for 1_fetch_and_flatten.py --db

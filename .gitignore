@@ -1,0 +1,20 @@
+node_modules
+dist
+.DS_Store
+.Rhistory
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Database credentials for postprocessing/1_fetch_and_flatten.py --db
+.env
+
+# Participant data: kept out of version control by default.
+# Remove these lines if you deliberately want to version your data.
+results/*
+!results/.gitkeep
+output/*
+!output/.gitkeep

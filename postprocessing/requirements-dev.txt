@@ -1,0 +1,5 @@
+# Development / test dependencies for the postprocessing pipeline.
+#   pip install -r postprocessing/requirements-dev.txt
+#   python -m pytest postprocessing
+-r requirements.txt
+pytest>=8

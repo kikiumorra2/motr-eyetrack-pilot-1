@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+AGREE,"After the tutor stops, the student starts working independently on the questions.",Does the tutor stop the student?,Yes|No,j,20,3,agreement,No
+UNAGREE,"Whenever the reporter moves, the cameras requires constant adjustment from the director.",Does the director move the camera?,Yes|No,j,15,3,agreement,Yes
+AGREE,"After the producer starts, the audition separates mediocre actors from talented ones.",Do some actors perform better than others at the auditions?,Yes|No,j,23,3,agreement,Yes
+UNAGREE,"Whenever the nurse calls, the doctors stops working immediately to check on the patient.",Does the nurse call the patient?,Yes|No,j,7,3,agreement,No
+AGREE,"When the actress begins, the scene fails dramatically despite the months she spent rehearsing.",Did the actress rehearse extensively?,Yes|No,j,9,3,agreement,Yes
+UNAGREE,"If the supervisor changes, the schedules deserves further inspection by the rest of the staff.",Do the schedules ever deserve closer inspection?,Yes|No,j,1,3,agreement,Yes
+AGREE,"However hard the scientist works, his experiment produces smaller amounts of alcohol than expected.",Does the experiment produce excessive alcohol?,Yes|No,j,24,3,agreement,No
+UNAGREE,"Unless the dog attacks, the cats remains relatively tranquil throughout the day.",Do the cats usually remain calm?,Yes|No,j,16,3,agreement,Yes

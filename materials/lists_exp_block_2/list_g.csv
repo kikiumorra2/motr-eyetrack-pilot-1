@@ -1,0 +1,45 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+MVRR_AMB,The suspect sent the file deserved further investigation given the new evidence.,Did the suspect send the file to someone?,Yes|No,g,1,2,MVRR,No
+MVRR_AMB,The corrupt politician handed the bill received unwelcome attention from southern voters.,Did the politician hand the bill to someone?,Yes|No,g,2,2,MVRR,No
+NPZ_AMB,After the professor read the grant gained more attention due to her excellent description.,Who or what got a lot of attention?,The grant|The professor,g,6,2,NPZ,The grant
+NPS_AMB,The technician reported the service stopped working almost immediately after the storm started.,When did the service stop working?,After the storm|Before the storm,g,7,2,NPS,After the storm
+NPZ_AMB,Because the mechanic stopped the truck needed several more hours before it could be fully repaired.,Did the mechanic stop the truck?,Yes|No,g,8,2,NPZ,No
+MVRR_AMB,The player paid the bonus remained essentially the same despite his sudden fame and wealth.,Did the player pay the bonus to someone?,Yes|No,g,10,2,MVRR,No
+NPS_AMB,The recent hire claimed the job prepared many students for careers in media.,Did the hire believe the job helped students?,Yes|No,g,11,2,NPS,Yes
+NPS_AMB,The engineer maintained the equipment required constant supervision from senior technicians.,Did the engineer maintain the equipment?,Yes|No,g,15,2,NPS,No
+MVRR_AMB,The little girl fed the lamb remained relatively calm despite having asked for beef.,Did the girl feed the lamb?,Yes|No,g,16,2,MVRR,No
+NPZ_AMB,Before the patient called the treatment continued causing uncomfortable side effects like nausea.,Did the patient's nausea last for a while?,Yes|No,g,19,2,NPZ,Yes
+NPS_AMB,The dancer knew the ballet achieved incredible success for a small local production.,What production achieved incredible success?,A ballet|A musical,g,21,2,NPS,A ballet
+NPZ_AMB,Once the new chef started the restaurant separated mediocre cooks from gifted ones.,Did the chef join the restaurant recently?,Yes|No,g,23,2,NPZ,Yes
+MVRR_UAMB,The woman who was brought the mail disappeared mysteriously after reading the bad news in it.,Did the woman receive the mail?,Yes|No,g,3,2,MVRR,Yes
+NPZ_UAMB,"Although the boy attacked, the chicken stayed surprisingly happy as if nothing happened.",Was the chicken disturbed by the boy's attack?,Yes|No,g,4,2,NPZ,No
+MVRR_UAMB,The new doctor who was offered the operation appeared increasingly likely to succeed in her career.,Did the doctor offer the operation to someone?,Yes|No,g,5,2,MVRR,No
+NPZ_UAMB,"After the guitarist began, the song failed dramatically because he skipped the sound check.",Did the guitarist complete the sound check?,Yes|No,g,9,2,NPZ,No
+MVRR_UAMB,The assistant manager who was assigned the training seemed unnecessarily demanding to new staff.,Was the assistant manager being harsh?,Yes|No,g,12,2,MVRR,Yes
+NPZ_UAMB,"Although the mayor changed, the document provided sufficient evidence for what he had promised.",Did the mayor change the document?,Yes|No,g,13,2,NPZ,No
+NPS_UAMB,The basketball player mentioned that the contract created another controversy in the NBA.,Were there already controversies in the NBA?,Yes|No,g,14,2,NPS,Yes
+NPS_UAMB,The yoga instructor demonstrated that the position demanded immense physical effort from everyone.,Was the yoga position challenging?,Yes|No,g,17,2,NPS,Yes
+MVRR_UAMB,The governor who was awarded the contract received sweeping support across the entire state.,Did the governor award the contract to someone?,Yes|No,g,18,2,MVRR,No
+NPS_UAMB,The operator observed that the machine started working efficiently all of a sudden.,Did the machine turn out to be functional?,Yes|No,g,20,2,NPS,Yes
+NPZ_UAMB,"After the contestant lost, the money became unavailable despite his previous three wins in a row.",How many times did the contestant win?,Three|Zero,g,22,2,NPZ,Three
+NPS_UAMB,The apprentice baker discovered that the oven produced smaller cakes because it heated too fast.,Did the apprentice baker discover the oven?,Yes|No,g,24,2,NPS,No
+RC_Subj,The bus driver who followed the kids wondered about the location of a hotel.,Who was being followed?,The bus driver|The kids,g,25,2,RC,The kids
+RC_Subj,The chef who distracted the cameraman poured the flour onto the counter.,Who was being distracted?,The chef|The cameraman,g,26,2,RC,The cameraman
+RC_Obj,The children who the father woke bothered him about the trip to the beach.,Who was woken up?,The children|The father,g,27,2,RC,The children
+RC_Obj,The class that the teacher disliked skimmed the reading for the week.,Who was disliked?,The class|The teacher,g,28,2,RC,The class
+RC_Subj,The manager who visited the boss remembered some inconvenient facts.,Who remembered the facts?,The boss|The manager,g,37,2,RC,The manager
+RC_Subj,The mathematician who visited the chairman created a solution to the wellknown problem.,Who created the solution?,The mathematician|The chairman,g,38,2,RC,The mathematician
+RC_Obj,The monkeys that the zookeepers watched charged the bars of their cage.,Who charged the bars of the cage?,The zookeepers|The monkeys,g,39,2,RC,The monkeys
+RC_Obj,The movie star who the organizers visited proposed an annual prize.,Who proposed a prize?,The movie star|The organizers,g,40,2,RC,The movie star
+AttachMulti,"In the lobby, Clyde bumped into the chauffeur of the CEO who is reckless and very unpopular with the company.",Where was Clyde?,In the lobby|At the company's offices,g,49,2,Attach,In the lobby
+AttachHigh,Edwin has been reading about the sister of the actors who was visiting the resort in Death Valley.,Where was the resort?,The desert|The seaside,g,50,2,Attach,The desert
+AttachLow,"From the gallery, Franny observed the nurses of the surgeon who was in charge of the operation currently underway.",Where was Franny?,The gallery|The operating room,g,51,2,Attach,The gallery
+AttachMulti,"On the fishing trip, we laughed at the uncle of the sailor who was confused about the motor on the boat.",Who got confused?,The uncle|The sailor,g,55,2,Attach,BOTH
+AttachHigh,"At trial, we scrutinized the prisoner of the FBI agents who was lying about the incident at the casino.",Who lied?,The prisoner|The FBI agents,g,56,2,Attach,The prisoner
+AttachLow,"During the demonstration, someone photographed the soldiers of the lieutenant who was camouflaged and hiding in the trees.",Who hid in the trees?,The soldiers|The lieutenant,g,57,2,Attach,The lieutenant
+AttachMulti,No one quite knew how to respond to the buddies of the janitors who burp without excusing themselves.,Did everyone excuse themselves?,Yes|No,g,61,2,Attach,No
+AttachHigh,The cunning Wally outmaneuvered the henchmen of the villain who often fail to carry out the plot.,Do the plots always succeed?,Yes|No,g,62,2,Attach,No
+AttachLow,"Down at the pub, Ollie gossiped about the daughter of the nurses who were at church last Sunday in grimy shorts.",Where was Ollie?,A pub|A church,g,63,2,Attach,A pub
+AttachMulti,"At the summit, Ursula warmly greeted the advisors of the tycoons who snowboard in Aspen in January.",Who snowboards?,The advisors|The tycoons,g,67,2,Attach,BOTH
+AttachHigh,Rosalina testified against the detectives of the senator who were caught spying on his colleagues.,Who got caught spying?,The detectives|The senator,g,68,2,Attach,The detectives
+AttachLow,"Before the exhibition, Silas telephoned the friend of the bodybuilders who write fan fiction about Batman.",Who writes fan fiction?,The friend|The bodybuilders,g,69,2,Attach,The bodybuilders

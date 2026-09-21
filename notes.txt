@@ -1,0 +1,22 @@
+to make the lists from the master csv Will sent me:
+
+run scripts/make_exp_block_lists.py to separate experimental items into 2 folders (block2 & block3)
+run scripts/make_filler_block_lists.py to separate fillers same way
+    - each csv is one list
+
+run scripts/convert_lists.py to convert the csvs to the same format as others (item_id instead of ItemID, etc)
+    - change the code depending on whether you're converting fillers or experimental, or whatever input files
+
+run scripts/shuffle_lists.py
+    - shuffle the exp items, with constraint that the same condition is never followed by the same one
+    - change input and output folder in the code as needed
+    - make sure to change shuffleTrials: to FALSE in src/config.js since we shuffled the rows in the csv, and want to keep them in that order
+
+    
+I changed a lot in src/materials.js to make the blocks work correctly
+
+to run the exp:
+npm run serve
+
+to analyze data: 
+python3 postprocessing/run_pipeline.py --experiment-id 345 --csv results/raw/results_lusha_attempt.csv --char-events expand

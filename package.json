@@ -1,0 +1,43 @@
+{
+  "name": "motr-template",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Template for Mouse Tracking for Reading (MoTR) experiments, built on magpie",
+  "scripts": {
+    "serve": "node scripts/vue-cli.js serve",
+    "build": "node scripts/vue-cli.js build",
+    "lint": "node scripts/vue-cli.js lint",
+    "lint:style": "node scripts/vue-cli.js lint:style",
+    "start": "node server.js",
+    "postinstall": "npm run build",
+    "test": "node --test \"test/**/*.test.js\"",
+    "test:perf": "MOTR_PERF=1 node --test test/perf.test.js",
+    "test:py": ".venv/bin/python -m pytest postprocessing",
+    "fixtures": "MOTR_WRITE_FIXTURES=1 node --test \"test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@samhammer/vue-cli-plugin-stylelint": "~2.1.0",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^5.0.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "magpie-base": "git+https://github.com/cuierd/magpie-base-MoTR.git#main",
+    "serve-static": "^1.15.0"
+  },
+  "engines": {
+    "node": "^16.x",
+    "npm": "^7.x"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

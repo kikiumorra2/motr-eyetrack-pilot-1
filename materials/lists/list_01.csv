@@ -1,0 +1,5 @@
+item_id,condition_id,text,question,options,correct
+1,short,"Far from the avenue, in front of the facilities, the passengers are late.",,,
+2,medium,"In front of the facilities, the passengers far from the avenue are late.",,,
+3,long,The passengers far from the avenue in front of the facilities is late.,,,
+4,short,"In front of the facilities, far from the avenue, the passengers is late.",,,

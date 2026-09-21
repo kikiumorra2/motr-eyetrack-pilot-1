@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+UNAGREE,"If the supervisor changes, the schedules deserves further inspection by the rest of the staff.",Do the schedules ever deserve closer inspection?,Yes|No,m,1,3,agreement,Yes
+UNAGREE,"Whenever the lawyer leaves, his clients appears increasingly uncomfortable in the courtroom.",Do the clients always look comfortable in the courtroom?,Yes|No,m,5,3,agreement,No
+AGREE,"When the lecturer stops, her audience needs several minutes to reflect on the content.",Does the lecturer stop her audience?,Yes|No,m,8,3,agreement,No
+AGREE,"When the actress begins, the scene fails dramatically despite the months she spent rehearsing.",Did the actress rehearse extensively?,Yes|No,m,9,3,agreement,Yes
+AGREE,"After the worst team loses, the tournament remains essentially the same for the rest of the year.",Does the loss of the worst team matter to the tournament?,Yes|No,m,10,3,agreement,No
+UNAGREE,"Whenever the reporter moves, the cameras requires constant adjustment from the director.",Does the director move the camera?,Yes|No,m,15,3,agreement,Yes
+AGREE,"Even if the mother calls, her boy continues causing problems with the other kids on the playground.",Does the boy behave himself after his mother calls?,Yes|No,m,19,3,agreement,No
+UNAGREE,"However hard the scientist works, his experiments produces smaller amounts of alcohol than expected.",Do the experiments produce excessive alcohol?,Yes|No,m,24,3,agreement,No

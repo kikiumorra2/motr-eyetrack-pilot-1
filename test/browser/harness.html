@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>charEvents browser harness</title>
+<style>
+/* Copied from src/components/MotrTrial.vue so the layout matches the real screen. */
+.main_screen { isolation: isolate; position: relative; width: 100%; height: auto; font-size: 18px; line-height: 40px; }
+.readingText { position: absolute; color: white; text-align: left; font-weight: 450; cursor: pointer;
+  padding-top: 2%; padding-bottom: 2%; padding-left: 11%; padding-right: 11%; }
+.oval-cursor { position: fixed; z-index: 2; width: 1px; height: 1px; transform: translate(-50%, -50%);
+  background-color: white; mix-blend-mode: difference; border-radius: 50%; pointer-events: none; }
+.blurry-layer { position: absolute; pointer-events: none; color: black; text-align: left; font-weight: 450;
+  padding-top: 2%; padding-bottom: 2%; padding-left: 11%; padding-right: 11%; }
+</style>
+</head>
+<body>
+<div class="main_screen">
+  <div>
+    <div class="oval-cursor"></div>
+    <div class="trial-counter">Sentence 1 of 1</div>
+    <div class="readingText" id="readingText"></div>
+    <div class="blurry-layer" id="blurry" style="opacity: 0.3; filter: blur(5px); transition: all 0.3s linear 0s"></div>
+    <div style="height: 75px"></div>
+    <div><button>Done Reading</button></div>
+  </div>
+</div>
+<script type="module">
+import { measureLayout } from "/src/charEvents/measure.js";
+import { attachRecorder } from "/src/charEvents/dom.js";
+import { CharEventRecorder } from "/src/charEvents/recorder.js";
+import { decodeRow, expandToLegacyRows } from "/src/charEvents/decoder.js";
+import { OUT, NONE, spanOffsets, buildIndex, hitState, wordOfGlobal } from "/src/charEvents/layout.js";
+
+const rt = document.getElementById("readingText");
+
+function setText(text) {
+  const words = text.split(/\s+/);
+  rt.textContent = "";
+  words.forEach((w, i) => {
+    const span = document.createElement("span");
+    span.setAttribute("data-index", String(i));
+    span.textContent = " " + w + " ";     // exactly what Vue's condensed template produces
+    rt.appendChild(span);
+  });
+  document.getElementById("blurry").textContent = text;
+  return words;
+}
+
+/** The legacy sampler's view of a point: "OUT" (pointer not over .readingText), -1, or word index. */
+function legacyIndex(x, y) {
+  const el = document.elementFromPoint(x, y);
+  if (!el || !el.closest(".readingText")) return "OUT";
+  let w = el.closest("span[data-index]");
+  if (!w) {
+    const above = document.elementFromPoint(x, y - 3);
+    w = above ? above.closest("span[data-index]") : null;
+  }
+  return w ? Number(w.getAttribute("data-index")) : -1;
+}
+
+function newIndex(index, offsets, x, y) {
+  const s = hitState(index, offsets, x, y);
+  if (s === OUT) return "OUT";
+  if (s === NONE) return -1;
+  return wordOfGlobal(offsets, s).i;
+}
+
+window.motr = {
+  setText,
+  measure: (words) => measureLayout(rt, words),
+  compare(words, table, points) {
+    const index = buildIndex(table);
+    const offsets = spanOffsets(words);
+    const mismatches = [];
+    let agree = 0;
+    for (const [x, y] of points) {
+      const a = legacyIndex(x, y), b = newIndex(index, offsets, x, y);
+      if (a === b) agree++;
+      else if (mismatches.length < 20) mismatches.push({ x, y, legacy: a, events: b });
+    }
+    return { n: points.length, agree, mismatches };
+  },
+  startRecorder(words, options) {
+    const recorder = new CharEventRecorder(options || {});
+    recorder.start(performance.now(), words, measureLayout(rt, words), { t0Response: 0, tsrc: "event" });
+    window.recorder = recorder;
+    window.detach = attachRecorder({ recorder, readingTextEl: rt, words });
+    return true;
+  },
+  finish() {
+    window.detach();
+    window.recorder.end(performance.now());
+    const fields = window.recorder.fields();
+    const decoded = decodeRow(fields);
+    // `row` is a complete charEvents row: copy(JSON.stringify([out.row])) → rows.json for
+    // postprocessing/plot_char_events.py --rows rows.json
+    const row = { Experiment: "harness", Condition: "harness", ItemId: "1", TrialType: "charEvents",
+                  TrialText: window.recorder.words.join(" "), ...fields };
+    return { fields, row, events: decoded.events, stats: decoded.stats, nTrace: decoded.trace.length,
+             nSnapshots: decoded.snapshots.length, rows: expandToLegacyRows(fields, window.recorder.words).length };
+  },
+  snapshotCount: () => window.recorder.snapshots.length,
+  blockRect: () => { const r = rt.getBoundingClientRect(); return [r.left, r.top, r.right, r.bottom]; },
+  viewport: () => [window.innerWidth, window.innerHeight],
+};
+window.motrReady = true;
+</script>
+</body>
+</html>

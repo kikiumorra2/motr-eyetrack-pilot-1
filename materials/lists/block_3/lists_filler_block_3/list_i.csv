@@ -1,0 +1,11 @@
+condition,Sentence,question,options,answer,list,itemID,block,RNDM
+FILLER2,"For centuries, time was measured by the position of the sun with the use of sundials.",Were sundials used for centuries?,(r) Yes　　　　　　　　　　　No (u),r,i,103,3,FILLER2
+FILLER2,"The girl's feet were then re-wrapped even tighter than before, causing her footprint to shrink further.",Were the wraps around the girl's feet tighter after they were re-wrapped?,(r) Yes　　　　　　　　　　　No (u),r,i,104,3,FILLER2
+FILLER2,"The astronauts used a hefty robotic arm to move the bus-size canister, stuffed with nearly three tons of packing foam.",Did the astronauts move the container by themselves?,(r) Yes　　　　　　　　　　　No (u),u,i,105,3,FILLER2
+FILLER2,"Very similar, but even more striking, is the evidence from athletic training.",Is athletic training the only source of evidence?,(r) Yes　　　　　　　　　　　No (u),u,i,106,3,FILLER2
+FILLER2,"I agree that California's ""three strikes and you're out"" law will be a financial disaster for taxpayers who care about education.",Does the speaker think there's drawback of the law?,(r) Yes　　　　　　　　　　　No (u),r,i,107,3,FILLER2
+FILLER2,"It was a forbidding challenge, and it says much for Winstanley's persuasive abilities, not to mention his self-confidence.",What better describes Winstanley?,(r) Eloquent　　　　　　　　　　　Uncertain (u),r,i,108,3,FILLER2
+FILLER2,"With schools still closed, cars still buried and streets still blocked by the widespread weekend snowstorm, officials are asking people to help out.",What happened to the area?,(r) Blizzard　　　　　　　　　　　Drought (u),r,i,109,3,FILLER2
+FILLER2,"Steam sterilization is limited in the types of medical waste it can treat, but is appropriate for laboratory substances.",What is steam sterilization good for?,(r) Any waste　　　　　　　　　　　Lab waste (u),u,i,110,3,FILLER2
+FILLER2,"From coal to cars, Chinese floods tangle supply chains worldwide.",Do the floods have a global economic effect?,(r) Yes　　　　　　　　　　　No (u),r,i,111,3,FILLER2
+FILLER2,This new film marks 10 years since the death of the superstar.,How long has the artist passed away?,(r) For only a few years　　　　　　　　　　　For about a decade (u),u,i,112,3,FILLER2

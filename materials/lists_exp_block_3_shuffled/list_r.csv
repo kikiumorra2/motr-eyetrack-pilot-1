@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+AGREE,"Unless the dog attacks, the cat remains relatively tranquil throughout the day.",Does the cat usually remain calm?,Yes|No,r,16,3,agreement,Yes
+UNAGREE,"After the diplomat signs, the agreements creates another border conflict as a side effect.",Do the agreements lead to peace?,Yes|No,r,14,3,agreement,No
+AGREE,"After the tutor stops, the student starts working independently on the questions.",Does the tutor stop the student?,Yes|No,r,20,3,agreement,No
+UNAGREE,"Whenever the lawyer leaves, his clients appears increasingly uncomfortable in the courtroom.",Do the clients always look comfortable in the courtroom?,Yes|No,r,5,3,agreement,No
+AGREE,"Whenever the reporter moves, the camera requires constant adjustment from the director.",Does the director move the camera?,Yes|No,r,15,3,agreement,Yes
+UNAGREE,"If the supervisor changes, the schedules deserves further inspection by the rest of the staff.",Do the schedules ever deserve closer inspection?,Yes|No,r,1,3,agreement,Yes
+AGREE,"However hard the scientist works, his experiment produces smaller amounts of alcohol than expected.",Does the experiment produce excessive alcohol?,Yes|No,r,24,3,agreement,No
+UNAGREE,"Once the head surgeon begins, the operations achieves incredible results given the risks involved.",Are the operations successful?,Yes|No,r,21,3,agreement,Yes

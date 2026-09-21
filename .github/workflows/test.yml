@@ -1,0 +1,41 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  js:
+    name: JS unit tests (node:test)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # src/charEvents and test/ have no dependencies, so no npm install
+      # (which would also trigger the postinstall build).
+      - run: npm test
+      - run: npm run test:perf
+
+  py:
+    name: Python tests (pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r postprocessing/requirements-dev.txt
+      - run: python -m pytest postprocessing
+
+  build:
+    name: Vue build (Node from .nvmrc)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      # postinstall runs `npm run build`, proving the ESM modules bundle with webpack 4.
+      - run: npm ci

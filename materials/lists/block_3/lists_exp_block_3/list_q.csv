@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+AGREE,"If the supervisor changes, the schedule deserves further inspection by the rest of the staff.",Does the schedule ever deserve closer inspection?,Yes|No,q,1,3,agreement,Yes
+AGREE,"After the esteemed reviewer reads, the book gains more attention due to his glowing praise.",Does the esteemed reviewer like the book?,Yes|No,q,6,3,agreement,Yes
+UNAGREE,"Whenever the nurse calls, the doctors stops working immediately to check on the patient.",Does the nurse call the patient?,Yes|No,q,7,3,agreement,No
+UNAGREE,"When the lecturer stops, her audiences needs several minutes to reflect on the content.",Does the lecturer stop her audiences?,Yes|No,q,8,3,agreement,No
+AGREE,"After the diplomat signs, the agreement creates another border conflict as a side effect.",Does the agreement lead to peace?,Yes|No,q,14,3,agreement,No
+UNAGREE,"Whenever the reporter moves, the cameras requires constant adjustment from the director.",Does the director move the camera?,Yes|No,q,15,3,agreement,Yes
+UNAGREE,"Unless the dog attacks, the cats remains relatively tranquil throughout the day.",Do the cats usually remain calm?,Yes|No,q,16,3,agreement,Yes
+AGREE,"Until the lead architect leaves, the project demands immense patience from the engineers.",Has the lead architect left?,Yes|No,q,17,3,agreement,No

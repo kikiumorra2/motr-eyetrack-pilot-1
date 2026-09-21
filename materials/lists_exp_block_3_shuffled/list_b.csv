@@ -1,0 +1,9 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+UNAGREE,"Until the lead architect leaves, the projects demands immense patience from the engineers.",Has the lead architect left?,Yes|No,b,17,3,agreement,No
+AGREE,"Unless the dog attacks, the cat remains relatively tranquil throughout the day.",Does the cat usually remain calm?,Yes|No,b,16,3,agreement,Yes
+UNAGREE,"Even if the mother calls, her boys continues causing problems with the other kids on the playground.",Do the boys behave themselves after their mother calls?,Yes|No,b,19,3,agreement,No
+AGREE,"When the lecturer stops, her audience needs several minutes to reflect on the content.",Does the lecturer stop her audience?,Yes|No,b,8,3,agreement,No
+UNAGREE,"When the supervisor works, the shifts seems unnecessarily stressful on a Friday night.",Does the supervisor sometimes work on a Friday night?,Yes|No,b,12,3,agreement,Yes
+AGREE,"After the esteemed reviewer reads, the book gains more attention due to his glowing praise.",Does the esteemed reviewer like the book?,Yes|No,b,6,3,agreement,Yes
+UNAGREE,"Once the head surgeon begins, the operations achieves incredible results given the risks involved.",Are the operations successful?,Yes|No,b,21,3,agreement,Yes
+AGREE,"After the producer starts, the audition separates mediocre actors from talented ones.",Do some actors perform better than others at the auditions?,Yes|No,b,23,3,agreement,Yes

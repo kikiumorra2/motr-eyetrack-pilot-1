@@ -1,0 +1,45 @@
+condition_id,text,question,options,list,item_id,block,RNDM,correct
+NPZ_AMB,Because the suspect changed the file deserved further investigation during the jury discussions.,Did the suspect change the file?,Yes|No,n,1,2,NPZ,No
+NPS_AMB,The corrupt politician mentioned the bill received unwelcome attention from southern voters.,Did the bill receive any negative attention?,Yes|No,n,2,2,NPS,Yes
+MVRR_AMB,The woman brought the mail disappeared mysteriously after reading the bad news in it.,Did the woman receive the mail?,Yes|No,n,3,2,MVRR,Yes
+MVRR_AMB,The new doctor offered the operation appeared increasingly likely to succeed in her career.,Did the doctor offer the operation to someone?,Yes|No,n,5,2,MVRR,No
+NPS_AMB,The guitarist knew the song failed dramatically because of the tensions within the band.,Did the band members have some interpersonal conflict?,Yes|No,n,9,2,NPS,Yes
+NPZ_AMB,Once the recent hire started the job prepared many students for careers in media.,Did the job help any students?,Yes|No,n,11,2,NPZ,Yes
+MVRR_AMB,The assistant manager assigned the training seemed unnecessarily demanding to new staff.,Was the assistant manager being harsh?,Yes|No,n,12,2,MVRR,Yes
+MVRR_AMB,The basketball player handed the contract created another controversy in the NBA.,Did the player hand the contract to someone?,Yes|No,n,14,2,MVRR,No
+NPS_AMB,The governor noticed the contract received sweeping support across the entire state.,How much support did the contract receive?,Extensive|Limited,n,18,2,NPS,Extensive
+NPZ_AMB,Once the operator stopped the machine started working efficiently without any supervision.,Did the operator stop the machine?,Yes|No,n,20,2,NPZ,No
+NPZ_AMB,Once the dancer began the ballet achieved incredible success for a show with a new performer.,What show achieved incredible success?,A musical|A ballet,n,21,2,NPZ,A ballet
+NPS_AMB,The new chef claimed the restaurant separated mediocre cooks from gifted ones.,Did the chef join the restaurant recently?,Yes|No,n,23,2,NPS,Yes
+NPZ_UAMB,"Although the boy attacked, the chicken stayed surprisingly happy as if nothing happened.",Was the chicken disturbed by the boy's attack?,Yes|No,n,4,2,NPZ,No
+MVRR_UAMB,The professor who was awarded the grant gained more attention from marine biologists.,Did the professor award the grant to someone?,Yes|No,n,6,2,MVRR,No
+MVRR_UAMB,The technician who was refused the service stopped working almost immediately after the argument.,Did the technician refuse the service?,Yes|No,n,7,2,MVRR,No
+NPS_UAMB,The mechanic observed that the truck needed several more hours to be repaired.,Had the truck broken down?,Yes|No,n,8,2,NPS,Yes
+NPS_UAMB,The player revealed that the bonus remained essentially the same as in the original contract.,Was the contract violated?,Yes|No,n,10,2,NPS,No
+MVRR_UAMB,The mayor who was sent the document provided sufficient evidence that it was simply blackmail.,Did the mayor send the document to someone?,Yes|No,n,13,2,MVRR,No
+NPZ_UAMB,"After the engineer moved, the equipment required constant supervision from senior technicians.",Did the engineer move the equipment?,Yes|No,n,15,2,NPZ,No
+NPS_UAMB,The little girl found that the lamb remained relatively calm despite the absence of its mother.,Was the lamb's mother missing?,Yes|No,n,16,2,NPS,Yes
+NPZ_UAMB,"Before the yoga instructor left, the position demanded immense physical effort from everyone.",Was the position hard?,Yes|No,n,17,2,NPZ,Yes
+NPS_UAMB,The patient reported that the treatment continued causing uncomfortable side effects like nausea.,Did the patient's nausea last for a while?,Yes|No,n,19,2,NPS,Yes
+MVRR_UAMB,The contestant who was paid the money became unavailable and suddenly terminated his contract.,Did the contestant pay the money to someone?,Yes|No,n,22,2,MVRR,No
+NPZ_UAMB,"When the apprentice baker worked, the oven produced smaller cakes because he lacked experience.",Why were the cakes small?,The baker was not good.|The oven was not reliable.,n,24,2,NPZ,The baker was not good.
+RC_Subj,The dancer that loved the audience ignored some basic principles.,Who was loved?,The dancer|The audience,n,29,2,RC,The audience
+RC_Subj,The employees that noticed the fireman hurried across the open field.,Who was noticed?,The employees|The fireman,n,30,2,RC,The fireman
+RC_Obj,The farmer that the customers approached lifted the chickens from their coop.,Who was approached?,The customers|The farmer,n,31,2,RC,The farmer
+RC_Obj,The farmer who the rancher hired piled the seeds in long rows.,Who was hired?,The rancher|The farmer,n,32,2,RC,The farmer
+RC_Subj,The neighbor who observed the couple purchased the old Victorian house.,Who purchased the house?,The couple|The neighbor,n,41,2,RC,The neighbor
+RC_Subj,The pilot who delayed the ground crew remained on the runway for a long time.,Who was on the runway?,The pilot|The ground crew,n,42,2,RC,The pilot
+RC_Obj,The soldiers that the natives helped climbed the big rock that blocked the path.,Who climbed the rock?,The natives|The soldiers,n,43,2,RC,The soldiers
+RC_Obj,The speaker who the economists entertained predicted a good year for the industry.,Who predicted a good year?,The speaker|The economists,n,44,2,RC,The speaker
+AttachMulti,Gerald introduced himself to the niece of the billionaire who sails vintage yachts around the Vineyard.,What kind of yachts were sailed?,Old ones|Contemporary ones,n,52,2,Attach,Old ones
+AttachHigh,"At the potluck, Marcus chatted with the aunt of the nuns who bakes sugar cookies with cute designs.",What kind of cookies were they?,Oatmeal cookies|Sugar cookies,n,53,2,Attach,Sugar cookies
+AttachLow,"During the budget negotiation, Janet charmed the assistants of the executive who decides almost everything in secret.",What was the venue?,A casual party|A business meeting,n,54,2,Attach,A business meeting
+AttachMulti,Karl recognized the hostage of the pirate who was on TV this morning on the local news.,Who was on TV this morning?,The hostage|The pirate,n,58,2,Attach,BOTH
+AttachHigh,"During the play, we all heckled the murderer of the princes who was disguised as a peasant from nearby Trosselheim.",Who dressed as a peasant?,The murderer|The princes,n,59,2,Attach,The murderer
+AttachLow,"At the charity show, Noreen nodded to the sidekicks of the actor who was juggling sharp knives and glass bottles.",Who juggled sharp knives?,The sidekicks|The actor,n,60,2,Attach,The actor
+AttachMulti,From the lounge everyone could see the pilots of the millionaires who were distrusted by everyone at the company.,Who could everyone see?,Pilots|Millionaires,n,64,2,Attach,Pilots
+AttachHigh,On the news they showed the accomplices of the thief who were indicted for stealing the Mona Lisa.,Where did they show the accomplices?,A documentary|The news,n,65,2,Attach,The news
+AttachLow,Everyone at the party groaned at the bodyguard of the divas who smoke clove cigarettes constantly.,What type of cigarettes are smoked?,Menthol|Clove,n,66,2,Attach,Clove
+AttachMulti,"At her orientation, Tamara recently met the nephews of the professors who paint beautiful portraits of local celebrities.",Who paints portraits?,The nephews|The professors,n,70,2,Attach,BOTH
+AttachHigh,Everyone at the coffee shop sympathized with the couriers of the florist who were complaining about the weather.,Who complained about the weather?,The couriers|The florist,n,71,2,Attach,The couriers
+AttachLow,"Despite the good press, we didn't really like the commander of the soldiers who whistle very loudly and for no reason at all.",Who whistles loudly?,The commander|The soldiers,n,72,2,Attach,The soldiers
