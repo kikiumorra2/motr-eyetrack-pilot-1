@@ -6,7 +6,7 @@
  */
 export default {
   // Recorded in every data row as `Experiment`. Use a short, unique slug per experiment.
-  experimentName: "SAP_mousetrack_pilot_383",
+  experimentName: "SAP_mousetrack_v1_388",
 
   // Completion code shown on the final screen. Must match completionUrl in magpie.config.js.
   completionCode: "C1B0Y2VH", 
