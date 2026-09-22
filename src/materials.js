@@ -136,14 +136,107 @@ export function buildPracticeTrials() {
 }
 
 /**
- * Main trials for a list: leading fillers first (unshuffled), then the critical items
- * mixed with the remaining fillers (shuffled if config.shuffleTrials).
+ * trials randomized every time -- so when refresh a page/new participant enters same list, they appear in different order 
+ * CONSTRAINT: no same condition will appear twice in a row.
  */
- 
-/**
- * LUSHA EDIT: I leave the exp items in their order, but shuffle fillers and 
- * insert them in random positions.
- */
+
+function shuffleWithConditionConstraint(items){
+  if (items.length === 0){
+    return [];
+  }
+
+  //group trials by condition_id
+  const groups = {};
+
+  items.ForEach((item) => {
+    const condition = item.condition_id;
+
+    if (!groups[condition]){
+      groups[condition] = [];
+    }
+    groups[condition].push(item);
+  });
+
+  //randomize order of items WITHIN each condition group
+  Object.keys(groups).forEach((condition) => {
+    grousp[condition] = _.shuffle(groups[condition]);
+  });
+
+  //check whether valid arrangement is possible -- so if one condition is over half of all items, you cannot arrange them so that the same condition doesnt repeat in a row
+  const largestGroup = Math.max(
+    ...Object.values(groups).map((rows) => rows.length)
+  );
+
+  if (largestGroup > Math.ceil(items.length / 2)) {
+    throw new Error(
+      "Impossible to arrange experimental trials without repeating a condition."
+    );
+  }
+
+  const result = [];
+  let previousCondition = null;
+
+  while (result.length < items.length){
+    //conditions we are allowed to use next -- anything but previousCondition
+    const candidates = Object.keys(groups).filter(
+      (condition) => 
+        groups[condition].length >0 &&
+        condition !== previousCondition
+    );
+
+    if (candidates.length === 0){
+      throw new Error(
+        "Could not arrange without repeating a condition."
+      );
+    }
+
+    //prefer condition with most remaining trials
+    const largestRemaining = Math.max(
+      ...candidates.map((condition) => groups[condition].length)
+    );
+
+    const largestCandidates = candidates.filter(
+      (condition) =>
+        groups[condition].length === largestRemaining
+    );
+
+    //if multiple conditions have the same length, choose randomly
+    const chosenCondition = _.sample(largestCandidates);
+
+    //take 1 randomized trial from chosenCondition
+    const trial = groups[chosenCondition].pop();
+
+    result.push(trial);
+
+    previousCondition = chosenCondition; //now you can repeat, this being reset for current condition
+  }
+
+  //safety check
+  for (let i=1; i<items.length; i++){
+    if (result[i].condition_id === result[i-1].condition_id){
+      throw new Error("Two identical conditions ended up next to each other.");
+    }
+  }
+
+  return result;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//interleave filters into items
 
 function interleaveFillers(items, fillers){
   const shuffledFillers = _.shuffle(fillers);
@@ -163,10 +256,11 @@ function interleaveFillers(items, fillers){
 
 export function buildMainTrials(listId) {
   //block 2
-  const block2Items = 
+  const block2Items = shuffleWithConditionConstraint(
     expBlock2Lists[listId].map(
       (r) => toTrial(r,"main")
-    );
+    )
+  );
     
   const block2Fillers = 
     fillerBlock2Lists[listId].map(
@@ -179,10 +273,11 @@ export function buildMainTrials(listId) {
   )
     
   //block 3
-  const block3Items = 
+  const block3Items = shuffleWithConditionConstraint(
     expBlock3Lists[listId].map(
       (r) => toTrial(r,"main")
-    );
+    )
+  );
   
   const block3Fillers = 
     fillerBlock3Lists[listId].map(
