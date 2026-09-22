@@ -100,7 +100,7 @@ export function chooseListId() {
   }
   
   if (config.defaultList === "random") return _.sample(listIds);
-  const defaulId = String(config.defaultList);
+  const defautlId = String(config.defaultList);
   
   return listIds.includes(defaultId) ? defaultId : listIds[0];
 }
@@ -148,7 +148,7 @@ function shuffleWithConditionConstraint(items){
   //group trials by condition_id
   const groups = {};
 
-  items.ForEach((item) => {
+  items.forEach((item) => {
     const condition = item.condition_id;
 
     if (!groups[condition]){
@@ -159,7 +159,7 @@ function shuffleWithConditionConstraint(items){
 
   //randomize order of items WITHIN each condition group
   Object.keys(groups).forEach((condition) => {
-    grousp[condition] = _.shuffle(groups[condition]);
+    groups[condition] = _.shuffle(groups[condition]);
   });
 
   //check whether valid arrangement is possible -- so if one condition is over half of all items, you cannot arrange them so that the same condition doesnt repeat in a row
@@ -208,7 +208,7 @@ function shuffleWithConditionConstraint(items){
 
     result.push(trial);
 
-    previousCondition = chosenCondition; //now you can repeat, this being reset for current condition
+    previousCondition = chosenCondition; //now you can start while loop again, this being reset for current condition
   }
 
   //safety check
@@ -270,7 +270,7 @@ export function buildMainTrials(listId) {
   const block2 = interleaveFillers(
     block2Items,
     block2Fillers
-  )
+  );
     
   //block 3
   const block3Items = shuffleWithConditionConstraint(
