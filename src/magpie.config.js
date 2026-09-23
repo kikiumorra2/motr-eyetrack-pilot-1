@@ -11,7 +11,7 @@ export default {
   // The code must match `completionCode` in src/config.js.
   completionUrl: "https://app.prolific.com/submissions/complete?cc=CCH6PRPT", 
 
-  contactEmail: "lp2807@nyu.edu",
+  contactEmail: "wpt2011@nyu.edu",
 
   // 'debug'      – nothing is sent to the server; data is logged to the browser console.
   // 'directLink' – submits to the server; participant ID is typed in on the consent screen.
