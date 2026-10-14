@@ -176,8 +176,7 @@
 
     <div
       class="consent-button"
-      v-if="$magpie.measurements.SubjectID &&
-            $magpie.measurements.SubjectID.trim().length >= 2"
+      v-if="$magpie.measurements.SubjectID"
     >
       <button @click="consent">
         Continue
