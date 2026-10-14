@@ -9,7 +9,7 @@ export default {
   experimentName: "SAP_mousetrack_v1_388",
 
   // Completion code shown on the final screen. Must match completionUrl in magpie.config.js.
-  completionCode: "CCH6PRPT", 
+  completionCode: "CH4GRUES", 
 
   // Which list to use when the URL has no ?LIST_ID=N parameter.
   // "random" picks uniformly among materials/lists/list_*.csv; a number picks that list.
