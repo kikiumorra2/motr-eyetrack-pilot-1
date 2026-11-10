@@ -2,7 +2,7 @@
 // See https://magpie-experiments.org/ for the full list of options.
 export default {
   // Numeric experiment ID created on the magpie server. Every submission is stored under it.
-  experimentId: "388",
+  experimentId: "398",
 
   // magpie backend that receives the data.
   serverUrl: "https://magpie-serverless.vercel.app",
