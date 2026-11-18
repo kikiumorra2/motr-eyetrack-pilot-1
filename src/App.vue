@@ -22,168 +22,271 @@
 >
   <div id="consent">
 
-    <div
-      id="consent-form"
-      class="consent-scrollbox"
-    >
-      <h1 class="consent-title">
-        Informed Consent Form IRB-FY2020-4512
-      </h1>
+        <div
+            id="consent-form"
+            class="consent-scrollbox"
+        >
+            <h1 class="consent-title">
+                RESEARCH INFORMED CONSENT FORM
+            </h1>
 
-      <div class="study-information">
-        <p>
-          <strong>Title:</strong>
-          Sources of Difficulty in Language Processing and Learning
-        </p>
+            <div class="study-information">
+                <p>
+                    <strong>STUDY TITLE:</strong>
+                    Developing and Testing Language Models with Cognitively Plausible Memory (IRB-FY2026-11698)
+                </p>
 
-        <p>
-          <strong>Principal Investigator:</strong>
-          Tal Linzen, Department of Linguistics and the Center for
-          Data Science, New York University
-        </p>
-      </div>
+                <p>
+                    <strong>INVESTIGATOR(S):</strong>
+                    Tal Linzen
+                </p>
+            </div>
 
-      <h2 class="section-heading">
-        PURPOSE OF RESEARCH STUDY:
-      </h2>
+            <h2 class="section-heading">
+                FUNDING SPONSOR:
+            </h2>
 
-      <p>
-        The goal of the project is to measure what makes particular
-        aspects of language easier or harder to learn and understand.
-      </p>
+            <p>
+                National Institute of Biomedical Imaging and Bioengineering (NIH NIBIB)
+            </p>
+            
+             <h2 class="section-heading">
+                INVITATION TO BE PART OF A RESEARCH STUDY
+            </h2>
 
-      <h2 class="section-heading">
-        PROCEDURES:
-      </h2>
+            <p>
+                You are invited to participate in a research study. This form has information to help you decide 
+                whether or not you wish to participate - please review it carefully. Your participation is voluntary.
+                Please ask any questions you have about the study or about this form before deciding to 
+                participate.
+            </p>
+            
+            <h2 class="section-heading">
+                PURPOSE OF RESEARCH STUDY
+            </h2>
 
-      <p>
-        You will be asked to read or listen to language, and answer
-        questions about what you've read or heard. The sentences may
-        be in English or in a made-up language that you will learn
-        during the experiment. The experiment involves a single
-        session that will take up to an hour; there will be up to five
-        sessions, but most participants will only participate in a
-        single session.
-      </p>
+            <p>
+                The purpose of this research study is to understand how the human mind is able to read sentences,
+                what makes some sentences more difficult than others, and how human memory limitations
+                influence the way we process sentences with particular grammatical structures.
+            </p>
+            
+            <h2 class="section-heading">
+                ELIGIBILITY TO PARTICIPATE
+            </h2>
 
-      <h2 class="section-heading">
-        RISKS/DISCOMFORTS:
-      </h2>
+            <p>
+                You are eligible to participate in this study if you are a native speaker of English, or, if otherwise
+                specified, another language (e.g. French, German, Korean, Russian), and are over the age of 18.
+                You should not participate if you are not a native speaker of the target language of the study, or are 
+                under the age of 18.
+            </p>
+            <p>
+                To determine if you are eligible, we will ask you to self-report your age and whether you are a native
+                speaker of the target language before the experiment begins.
+            </p>
+            
+            <h2 class="section-heading">
+                DESCRIPTION OF PROCEDURES
+            </h2>
 
-      <p>
-        The risks associated with participation in this study are no
-        greater than those encountered in daily life.
-      </p>
+            <p>
+                If you agree to participate, you will be asked to:
+            </p>
+            
+            <p>
+                1. Read the study instructions. This should take approximately one minute.
+            </p>
+            
+            <p>
+                2. Complete approximately five practice sentences to familiarize yourself with the task. You will
+                press keys on your keyboard that will reveal each word of a sentence, then you may be
+                asked to answer a multiple-choice question about the sentence with your keyboard. This
+                should take approximately five minutes.
+            </p>
+            
+            <p>
+                3. You will then complete the experiment. The task will be the same as that of the practice
+                trials described above. This should take approximately twenty to thirty-five minutes. Finally,
+                you will be presented with debriefing information, which should take less than one minute to
+                read, and you will receive your compensation within one day of completion.
+            </p>
 
-      <h2 class="section-heading">
-        BENEFITS:
-      </h2>
+            <h2 class="section-heading">
+                RISKS OR DISCOMFORTS
+            </h2>
 
-      <p>
-        There are no direct benefits to you from participating in this
-        study. This study may benefit society if the results lead to a
-        better understanding of what makes certain aspects of language
-        easier or harder to learn and understand.
-      </p>
+            <p>
+                The risks associated with participation in this study are no
+                greater than those encountered in daily life.
+            </p>
 
-      <h2 class="section-heading">
-        VOLUNTARY PARTICIPATION AND RIGHT TO WITHDRAW:
-      </h2>
+            <h2 class="section-heading">
+                BENEFITS:
+            </h2>
 
-      <p>
-        Your participation in this study is entirely voluntary: You
-        choose whether to participate. If you decide not to
-        participate, there are no penalties, and you will not lose any
-        benefits to which you would otherwise be entitled.
-      </p>
+            <p>
+                This study involves the following risks or discomforts: The risks associated with participation in this
+                study are no greater than those encountered in daily life. Because the study collects some
+                information considered to be personally identifiable, there is always a risk of a breach of
+                confidentiality.
+            </p>
+                
+            <p>
+                Please tell the researchers if you believe you are harmed from your participation in the study.
+            </p>
+            
+            <h2 class="section-heading">
+                BENEFITS
+            </h2>
 
-      <p>
-        If you choose to participate in the study, you can stop your
-        participation at any time, without any penalty or loss of
-        benefits.
-      </p>
+            <p>
+                There are no direct benefits to you from participating in this study. This study may benefit society if
+                the results lead to a better understanding of what makes certain aspects of language easier or
+                harder to learn and understand.
+            </p>
+            
+            <h2 class="section-heading">
+                COMPENSATION
+            </h2>
 
-      <h2 class="section-heading">
-        CONFIDENTIALITY:
-      </h2>
+            <p>
+                Immediately upon completion of the study or decision to withdraw from the study, you will be
+                credited $15 to your specified Prolific account within one day of your completion or decision to
+                withdraw.
+            </p>
 
-      <p>
-        Any study records that identify you will be kept confidential
-        to the extent possible by law. The records from your
-        participation may be reviewed by people responsible for making
-        sure that research is done properly. Otherwise, records that
-        identify you will be available only to people working on the
-        study, unless you give permission for other people to see the
-        records.
-      </p>
+            <h2 class="section-heading">
+                VOLUNTARY PARTICIPATION
+            </h2>
 
-      <p>
-        Any study records that include your name will be kept in a
-        password-protected database. On all records of test results,
-        we will use a code number rather than your name.
-      </p>
+            <p>
+                Participating in this study is completely voluntary. You may choose not to take part in the study or
+                to stop participating at any time, for any reason, without penalty or negative consequences.
+                If you withdraw from the study early there are no penalties, and you will not lose any benefits to
+                which you would otherwise be entitled.
+            </p>
 
-      <h2 class="section-heading">
-        COMPENSATION:
-      </h2>
+            <p>
+                If you withdraw or are withdrawn from the study early, then we will keep information about you that
+                is already collected, but we will destroy the collected information upon your request.
+            </p>
 
-      <p>
-        You will receive compensation in proportion to the length of
-        the session.
-      </p>
+            <h2 class="section-heading">
+                PRIVACY & DATA CONFIDENTIALITY
+            </h2>
 
-      <h2 class="section-heading">
-        IF YOU HAVE QUESTIONS OR CONCERNS:
-      </h2>
+            <p>
+                In this study, you may be asked to provide information that could be used to identify you personally.
+                This information will be kept confidential. Only researchers and others that will keep the information
+                confidential (e.g., regulatory agencies or oversight groups) may access information that could
+                personally identify you.
+            </p>
 
-      <p>
-        You can ask questions about this research study now or at any
-        time during the study, by talking to the researcher(s) working
-        with you or by emailing Dr. Tal Linzen at
-        <a href="mailto:linzen@nyu.edu">linzen@nyu.edu</a>.
-      </p>
+            <p>
+                This research is covered by a Certificate of Confidentiality from the National Institutes of Health.
+                Researchers with this Certificate will not disclose or use information that may identify you in any
+                federal, state, or local civil, criminal, administrative, legislative, or other action, suit, or proceeding, 
+                even if there is a court subpoena.
+            </p>
+            
+            <p>
+                Exceptions include:
+            </p>
+            
+            <p>
+                - A federal, state, or local law requires disclosure.
+            </p>
+            
+            <p>
+                - Your explicit approval for the researchers to release your name or any other personally 
+                identifiable information.
+            </p>
+            
+            <p>
+                <em>
+                    Future Use of Data
+                </em>
+            </p>
+            
+            <p>
+                Information about you collected for this study may be shared with other researchers, used for other 
+                research studies, or placed in a data repository. These studies may be similar to this study or 
+                completely different. All information that could identify you will be removed before sharing the data 
+                or using it for other research studies. We will not ask you for additional permission before sharing 
+                the information.
+            </p>
 
-      <p>
-        If you have questions about your rights as a research
-        participant or feel that you have not been treated fairly,
-        please contact the NYU Institutional Review Board at
-        <a href="mailto:ask.humansubjects@nyu.edu">
-          ask.humansubjects@nyu.edu
-        </a>
-        or <strong>212.998.4808</strong>.
-      </p>
+            <h2 class="section-heading">
+                ACCESS TO YOUR STUDY INFORMATION
+            </h2>
 
-      <p class="final-consent-statement">
-        Pressing "Continue" below means that you understand the
-        information in this consent form, and that you agree to
-        participate in this study. You have not waived any legal rights
-        you otherwise would have as a participant in a research study.
-      </p>
-    </div>
+            <p>
+                We will give you access to the information that is collected about you in this study. Participants may 
+                request collected information directly from the research team by emailing Tal Linzen at 
+                tl876@nyu.edu.
+            </p>
 
-    <p class="continue-instruction">
-      If you agree to participate, please enter your Prolific ID and
-      press "Continue." Otherwise, you may exit this page.
-    </p>
+            <h2 class="section-heading">
+                CONTACT INFORMATION
+            </h2>
 
-    <p class="participant-id">
-      Prolific ID:
-      <input
-        type="text"
-        v-model="$magpie.measurements.SubjectID"
-      />
-    </p>
+            <p>
+                You are encouraged to ask questions at any time during this study. For information about the study, 
+                contact Tal Linzen at tl876@nyu.edu.
+            </p>
 
-    <div
-      class="consent-button"
-      v-if="$magpie.measurements.SubjectID"
-    >
-      <button @click="consent">
-        Continue
-      </button>
-    </div>
+            <p>
+                If you have questions about your rights as a research participant or if you believe you have been 
+                harmed from the research, please contact the NYU Human Research Protection Program at 
+                (212)998-4808 or ask.humansubjects@nyu.edu.
+            </p>
+            
+            <h2 class="section-heading">
+                AGREEMENT TO PARTICIPATE
+            </h2>
 
-  </div>
+            <p>
+                <b>Participant:</b> By checking the box below and pressing “continue", you are agreeing to participate in 
+                this study. Make sure you understand what the study involves before you check the box and press 
+                continue. If you have any questions about the study after you agree to participate, you can contact 
+                the research team using the information provided above. You may keep a copy of this form.
+            </p>
+
+            <p class="continue-instruction">
+              If you agree to participate, please check the box below,
+              enter your Prolific ID, and press "Continue."
+              Otherwise, you may exit this page.
+            </p>
+            
+            <p>
+              <label>
+                <input
+                  type="checkbox"
+                  v-model="consentAgreed"
+                />
+                I have read and understand the information above,
+                and I agree to participate in this study.
+              </label>
+            </p>
+            
+            <p class="participant-id">
+              Prolific ID:
+              <input
+                type="text"
+                v-model="$magpie.measurements.SubjectID"
+              />
+            </p>
+            
+            <div class="consent-button">
+              <button
+                :disabled="!consentAgreed || !$magpie.measurements.SubjectID || $magpie.measurements.SubjectID.trim().length < 2"
+                @click="consent"
+              >
+                Continue
+              </button>
+            </div>
+          </div>
 </Screen>
 
     <!-- 2. Browser check (zoom) -------------------------------------------------- -->
