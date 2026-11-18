@@ -143,7 +143,7 @@
 
             <p>
                 Immediately upon completion of the study or decision to withdraw from the study, you will be
-                credited $9 to your specified Prolific account within one day of your completion or decision to
+                credited $10 to your specified Prolific account within one day of your completion or decision to
                 withdraw.
             </p>
 
