@@ -51,7 +51,7 @@
             </p>
             
              <h2 class="section-heading">
-                INVITATION TO BE PART OF A RESEARCH STUDY
+                INVITATION TO BE A PART OF A RESEARCH STUDY
             </h2>
 
             <p>
@@ -62,7 +62,7 @@
             </p>
             
             <h2 class="section-heading">
-                PURPOSE OF RESEARCH STUDY
+                PURPOSE OF THE STUDY
             </h2>
 
             <p>
