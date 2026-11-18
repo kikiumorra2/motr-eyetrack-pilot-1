@@ -117,15 +117,6 @@
             </h2>
 
             <p>
-                The risks associated with participation in this study are no
-                greater than those encountered in daily life.
-            </p>
-
-            <h2 class="section-heading">
-                BENEFITS:
-            </h2>
-
-            <p>
                 This study involves the following risks or discomforts: The risks associated with participation in this
                 study are no greater than those encountered in daily life. Because the study collects some
                 information considered to be personally identifiable, there is always a risk of a breach of
